@@ -1,6 +1,8 @@
 #include "UserInterface.h"
 #include "Machine.h"
 #include "TSensor.h"
+#include "Mone.h"
+#include "Mtwo.h"
 UserInterface::UserInterface(Machine* sj):Observer(sj),machine(sj) {
 
 }

@@ -1,5 +1,7 @@
-#pragma once
+#ifndef _MONE_
+#define _MONE_
 #include "MoneInterface.h"
+
 class TSensor;
 class Mone : public MoneInterface
 {
@@ -14,3 +16,4 @@ public:
 	virtual void stop();
 };
 
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _TSENSOR_INTERFACE_
+#define _TSENSOR_INTERFACE_
+
 class TSensorInterface
 {
 public:
@@ -7,3 +9,4 @@ public:
 	virtual int retrieveWaarde() = 0;
 };
 
+#endif

@@ -1,3 +1,5 @@
+#ifndef _MACHINE_INTERFACE_
+#define _MACHINE_INTERFACE_
 
 class Mone;
 class Mtwo;
@@ -11,3 +13,4 @@ public:
 	virtual void halt() = 0;
 };
 
+#endif

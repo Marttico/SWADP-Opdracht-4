@@ -1,5 +1,7 @@
-#pragma once
+#ifndef _MTWO_
+#define _MTWO_
 #include "MtwoInterface.h"
+
 class TSensor;
 class Mtwo : public MtwoInterface
 {
@@ -14,3 +16,4 @@ public:
 	virtual void stop();
 };
 
+#endif

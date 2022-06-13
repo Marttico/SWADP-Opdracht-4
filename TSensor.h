@@ -1,6 +1,7 @@
-#pragma once
-#include "TSensorInterface.h"
+#ifndef _TSENSOR_
+#define _TSENSOR_
 #include <iostream>
+#include "TSensorInterface.h"
 
 using namespace std;
 
@@ -15,3 +16,4 @@ public:
 	virtual int retrieveWaarde();
 };
 
+#endif

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef _MOTOR_INTERFACE_
+#define _MOTOR_INTERFACE_
+
 class TSensor;
 class MotorInterface
 {
@@ -9,3 +11,4 @@ public:
 	virtual void stop() = 0;
 };
 
+#endif

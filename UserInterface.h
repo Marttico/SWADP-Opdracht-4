@@ -1,5 +1,7 @@
-#include "Observer.h"
+#ifndef _USERINTERFACE_
+#define _USERINTERFACE_
 #include <iostream>
+#include "Observer.h"
 
 using namespace std;
 
@@ -18,3 +20,4 @@ public:
 	void update();
 };
 
+#endif

@@ -1,8 +1,11 @@
+#ifndef _MACHINE_
+#define _MACHINE_
+
 #include "MachineInterface.h"
 #include "Observer.h"
-#include "Mone.h"
-#include "Mtwo.h"
 
+class Mone;
+class Mtwo;
 class Machine : public MachineInterface, public Subject
 {
 private:
@@ -17,3 +20,4 @@ public:
 	virtual void halt();
 };
 
+#endif

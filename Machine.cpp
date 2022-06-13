@@ -1,5 +1,7 @@
 #include "Machine.h"
 #include "TSensor.h"
+#include "Mone.h"
+#include "Mtwo.h"
 
 Machine::Machine() : m1(new Mone()), m2(new Mtwo()) {
 
